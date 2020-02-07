@@ -1,5 +1,7 @@
-// Write your code here!
-let newHeader = document.getElementById("div#header");
-newHeader.className="h1"
+document.querySelector("main#main").remove();
 
-newHeader.innerHTML = "<h1>Poodles!</h1>
+/* Create your new element here and assign it to newHeader */
+const newHeader = document.createElement("h1");
+newHeader.id = "victory"
+newHeader.innerHTML = "Flatiron School is the champion!";
+newHeader.className = "victory";
